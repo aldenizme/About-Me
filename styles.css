@@ -1,0 +1,85 @@
+
+html, body {
+  margin: 0%;
+  padding: 0;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: "Sacramento", cursive;
+  font-weight: normal;
+  font-style: normal;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.button-div{
+text-align: center;
+
+}
+.saglev-image{
+display: block;
+border-radius: 200px;
+
+}
+
+.footer-div{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+ background-color: #96b0b8;
+ margin-top: 20px;
+}
+
+.Socials-div {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ gap: 20px;
+ margin-bottom: 20px;
+}
+
+.Socials-div a {
+ text-decoration: none;
+ color: #257791;
+ font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+ .Socials-div {
+  flex-direction: column;
+  align-items: center;
+
+ }
+}
+
+.container-1{
+background-color: #96b0b8;
+
+
+
+}
+.container-3{
+    background-color: #9fc0ca;
+}
+/*
+.saglev-image{
+display: block;
+text-align: center;
+height: 100px;
+width: 100px;
+border: 5px solid #bd8f59;
+border-radius: 500px;
+margin-left: 40%;
+
+
+}
